@@ -16,5 +16,6 @@ usd_rate = rates['USD']
 with open('rates.json', 'w') as f:
     json.dump(rates, f)
 
+# Відобразити дані у зручному для користувача вигляді
 print(f'1 EUR = {eur_rate:.2f} USD')
 print(f'1 USD = {1/usd_rate:.2f} EUR')
